@@ -6,10 +6,10 @@ jdk1.7，SSM等。
 
 自己尝试为公司切换框架开发
 
->所有数据和核心业务均已脱敏处理，不会泄漏公司内部信息
+***所有数据和核心业务均已脱敏处理，不会泄漏公司内部信息***
 
 
-## 确认框架
+## 非主流框架
 
 ### Spring Cloud Alibaba Dubbo
 
@@ -21,11 +21,20 @@ jdk1.7，SSM等。
 引入 JAR 包则微服务间调用使用 Dubbo，去掉 JAR 包则使用默认的 RESTful；
 实现参考的是 Spring Cloud 中文社区的 [Spring Cloud Dubbo](https://github.com/SpringCloud/spring-cloud-dubbo) 项目。
 
-为简便开发，ORM 持久层使用 Mybatis-Plus
+既然使用 Cloud Alibaba，故使用 nacos 来做 Dubbo 的注册中心。
+
+当前时间2019.5.10 2:08,nacos 更新 1.0.0发行版。
+对应的是 Spring Boot 2.x 版本
+
+为简便开发，ORM 采用 Mybatis-Plus 持久层框架
+
+
 
 ### VUE
 
 前端采用 NodeJS + VUE + Axios 实现前后分离
+
+随后在写吧，最近估计没时间写前端了
 
 
 
