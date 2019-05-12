@@ -20,7 +20,7 @@
 
         <dependency>
             <groupId>com.htd</groupId>
-            <artifactId>spring-cloud-alibaba-dubbo-provider-api</artifactId>
+            <artifactId>htd-provider-api</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
     </dependencies>
