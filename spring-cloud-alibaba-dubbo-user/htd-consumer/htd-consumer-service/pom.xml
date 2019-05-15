@@ -16,6 +16,17 @@
         <dependency>
             <groupId>com.htd</groupId>
             <artifactId>spring-cloud-alibaba-dubbo-starter</artifactId>
+<!--            释放注解即可排除Dubbo框架-->
+<!--            <exclusions>-->
+<!--                <exclusion>-->
+<!--                    <groupId>com.htd</groupId>-->
+<!--                    <artifactId>spring-cloud-alibaba-dubbo-core</artifactId>-->
+<!--                </exclusion>-->
+<!--                <exclusion>-->
+<!--                    <groupId>com.alibaba.boot</groupId>-->
+<!--                    <artifactId>dubbo-spring-boot-starter</artifactId>-->
+<!--                </exclusion>-->
+<!--            </exclusions>-->
         </dependency>
 
         <dependency>
